@@ -9,7 +9,7 @@
 >Installing and using Composer.
  
 ## 🛠 Technologies  
-- Backend: PHP 
+- Backend: PHP // Composer fakerphp/faker": "^1.24
 - Frontend: html
 
 ## Comments 
