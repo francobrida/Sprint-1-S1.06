@@ -2,8 +2,6 @@
 
 class Student {
 
-    private string $name = "John Doe";
-
     public function __toString() : string
     {
        return "Im a student object";
@@ -13,7 +11,7 @@ class Student {
     {
         return "name property is private";
     }
-
+    
 }
 
 ?>

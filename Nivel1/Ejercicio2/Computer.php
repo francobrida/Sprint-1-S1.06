@@ -7,7 +7,4 @@ class Computer{
     }
 }
 
-$newPc =new Computer();
-echo $newPc->think();
-
 ?>
