@@ -7,6 +7,8 @@ class Car {
     private string $fuelType;
     private int $topSpeed;
 
+    use Turbo;
+
     public function __construct(string $brand, string $licensePlate, string $fuelType, int $topSpeed) {
         $this->brand = $brand;
         $this->licensePlate = $licensePlate;
@@ -14,7 +16,7 @@ class Car {
         $this->topSpeed = $topSpeed;
     }
 
-    use Turbo;
+ 
 }
 
 

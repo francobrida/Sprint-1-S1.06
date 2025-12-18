@@ -9,6 +9,6 @@ $faker = Factory::create();
 
 $newClient = new Client($faker->name(), $faker->email(), $faker->phoneNumber(), $faker->iban(), $faker->word());
 
-echo $newClient->__toString();
+echo $newClient;
 
 ?>
